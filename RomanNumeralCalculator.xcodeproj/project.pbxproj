@@ -13,19 +13,19 @@
 		835AEC961D80DD800046555C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC951D80DD800046555C /* Assets.xcassets */; };
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		A91340121DE008F2005ED9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91340101DE008F2005ED9CA /* LaunchScreen.xib */; };
-		C11400EF1FCE1CE3007105ED /* RomanNumeralCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C11400EE1FCE1CE3007105ED /* RomanNumeralCalculatorTests.m */; };
-		C11400FD1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C11400FC1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.m */; };
+		C114010B1FCE2327007105ED /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114010A1FCE2327007105ED /* RomanNumeralCalculatorTests.swift */; };
+		C11401191FCE2333007105ED /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11401181FCE2333007105ED /* RomanNumeralCalculatorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C11400F11FCE1CE3007105ED /* PBXContainerItemProxy */ = {
+		C114010D1FCE2327007105ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 835AEC831D80DD7F0046555C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 835AEC8A1D80DD7F0046555C;
 			remoteInfo = RomanNumeralCalculator;
 		};
-		C11400FF1FCE1CF2007105ED /* PBXContainerItemProxy */ = {
+		C114011B1FCE2333007105ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 835AEC831D80DD7F0046555C /* Project object */;
 			proxyType = 1;
@@ -43,12 +43,12 @@
 		835AEC9A1D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 		A91340111DE008F2005ED9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C11400EC1FCE1CE3007105ED /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C11400EE1FCE1CE3007105ED /* RomanNumeralCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralCalculatorTests.m; sourceTree = "<group>"; };
-		C11400F01FCE1CE3007105ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C11400FA1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C11400FC1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralCalculatorUITests.m; sourceTree = "<group>"; };
-		C11400FE1FCE1CF2007105ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11401081FCE2327007105ED /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C114010A1FCE2327007105ED /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
+		C114010C1FCE2327007105ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11401161FCE2333007105ED /* RomanNumeralCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11401181FCE2333007105ED /* RomanNumeralCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorUITests.swift; sourceTree = "<group>"; };
+		C114011A1FCE2333007105ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C11400E91FCE1CE3007105ED /* Frameworks */ = {
+		C11401051FCE2327007105ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C11400F71FCE1CF2007105ED /* Frameworks */ = {
+		C11401131FCE2333007105ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				835AEC8D1D80DD800046555C /* RomanNumeralCalculator */,
-				C11400ED1FCE1CE3007105ED /* RomanNumeralCalculatorTests */,
-				C11400FB1FCE1CF2007105ED /* RomanNumeralCalculatorUITests */,
+				C11401091FCE2327007105ED /* RomanNumeralCalculatorTests */,
+				C11401171FCE2333007105ED /* RomanNumeralCalculatorUITests */,
 				835AEC8C1D80DD800046555C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */,
-				C11400EC1FCE1CE3007105ED /* RomanNumeralCalculatorTests.xctest */,
-				C11400FA1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.xctest */,
+				C11401081FCE2327007105ED /* RomanNumeralCalculatorTests.xctest */,
+				C11401161FCE2333007105ED /* RomanNumeralCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,20 +110,20 @@
 			path = RomanNumeralCalculator;
 			sourceTree = "<group>";
 		};
-		C11400ED1FCE1CE3007105ED /* RomanNumeralCalculatorTests */ = {
+		C11401091FCE2327007105ED /* RomanNumeralCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				C11400EE1FCE1CE3007105ED /* RomanNumeralCalculatorTests.m */,
-				C11400F01FCE1CE3007105ED /* Info.plist */,
+				C114010A1FCE2327007105ED /* RomanNumeralCalculatorTests.swift */,
+				C114010C1FCE2327007105ED /* Info.plist */,
 			);
 			path = RomanNumeralCalculatorTests;
 			sourceTree = "<group>";
 		};
-		C11400FB1FCE1CF2007105ED /* RomanNumeralCalculatorUITests */ = {
+		C11401171FCE2333007105ED /* RomanNumeralCalculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C11400FC1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.m */,
-				C11400FE1FCE1CF2007105ED /* Info.plist */,
+				C11401181FCE2333007105ED /* RomanNumeralCalculatorUITests.swift */,
+				C114011A1FCE2333007105ED /* Info.plist */,
 			);
 			path = RomanNumeralCalculatorUITests;
 			sourceTree = "<group>";
@@ -148,40 +148,40 @@
 			productReference = 835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C11400EB1FCE1CE3007105ED /* RomanNumeralCalculatorTests */ = {
+		C11401071FCE2327007105ED /* RomanNumeralCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C11400F31FCE1CE3007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */;
+			buildConfigurationList = C114010F1FCE2327007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */;
 			buildPhases = (
-				C11400E81FCE1CE3007105ED /* Sources */,
-				C11400E91FCE1CE3007105ED /* Frameworks */,
-				C11400EA1FCE1CE3007105ED /* Resources */,
+				C11401041FCE2327007105ED /* Sources */,
+				C11401051FCE2327007105ED /* Frameworks */,
+				C11401061FCE2327007105ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C11400F21FCE1CE3007105ED /* PBXTargetDependency */,
+				C114010E1FCE2327007105ED /* PBXTargetDependency */,
 			);
 			name = RomanNumeralCalculatorTests;
 			productName = RomanNumeralCalculatorTests;
-			productReference = C11400EC1FCE1CE3007105ED /* RomanNumeralCalculatorTests.xctest */;
+			productReference = C11401081FCE2327007105ED /* RomanNumeralCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C11400F91FCE1CF2007105ED /* RomanNumeralCalculatorUITests */ = {
+		C11401151FCE2333007105ED /* RomanNumeralCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C11401011FCE1CF2007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */;
+			buildConfigurationList = C114011D1FCE2333007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */;
 			buildPhases = (
-				C11400F61FCE1CF2007105ED /* Sources */,
-				C11400F71FCE1CF2007105ED /* Frameworks */,
-				C11400F81FCE1CF2007105ED /* Resources */,
+				C11401121FCE2333007105ED /* Sources */,
+				C11401131FCE2333007105ED /* Frameworks */,
+				C11401141FCE2333007105ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C11401001FCE1CF2007105ED /* PBXTargetDependency */,
+				C114011C1FCE2333007105ED /* PBXTargetDependency */,
 			);
 			name = RomanNumeralCalculatorUITests;
 			productName = RomanNumeralCalculatorUITests;
-			productReference = C11400FA1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.xctest */;
+			productReference = C11401161FCE2333007105ED /* RomanNumeralCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +190,7 @@
 		835AEC831D80DD7F0046555C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = buddybuild;
 				TargetAttributes = {
@@ -200,13 +200,13 @@
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
-					C11400EB1FCE1CE3007105ED = {
+					C11401071FCE2327007105ED = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = TL73LFLQ8N;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 835AEC8A1D80DD7F0046555C;
 					};
-					C11400F91FCE1CF2007105ED = {
+					C11401151FCE2333007105ED = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = TL73LFLQ8N;
 						ProvisioningStyle = Automatic;
@@ -228,8 +228,8 @@
 			projectRoot = "";
 			targets = (
 				835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */,
-				C11400EB1FCE1CE3007105ED /* RomanNumeralCalculatorTests */,
-				C11400F91FCE1CF2007105ED /* RomanNumeralCalculatorUITests */,
+				C11401071FCE2327007105ED /* RomanNumeralCalculatorTests */,
+				C11401151FCE2333007105ED /* RomanNumeralCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,14 +245,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C11400EA1FCE1CE3007105ED /* Resources */ = {
+		C11401061FCE2327007105ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C11400F81FCE1CF2007105ED /* Resources */ = {
+		C11401141FCE2333007105ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,34 +272,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C11400E81FCE1CE3007105ED /* Sources */ = {
+		C11401041FCE2327007105ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11400EF1FCE1CE3007105ED /* RomanNumeralCalculatorTests.m in Sources */,
+				C114010B1FCE2327007105ED /* RomanNumeralCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C11400F61FCE1CF2007105ED /* Sources */ = {
+		C11401121FCE2333007105ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11400FD1FCE1CF2007105ED /* RomanNumeralCalculatorUITests.m in Sources */,
+				C11401191FCE2333007105ED /* RomanNumeralCalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C11400F21FCE1CE3007105ED /* PBXTargetDependency */ = {
+		C114010E1FCE2327007105ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */;
-			targetProxy = C11400F11FCE1CE3007105ED /* PBXContainerItemProxy */;
+			targetProxy = C114010D1FCE2327007105ED /* PBXContainerItemProxy */;
 		};
-		C11401001FCE1CF2007105ED /* PBXTargetDependency */ = {
+		C114011C1FCE2333007105ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */;
-			targetProxy = C11400FF1FCE1CF2007105ED /* PBXContainerItemProxy */;
+			targetProxy = C114011B1FCE2333007105ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -457,10 +457,9 @@
 			};
 			name = Release;
 		};
-		C11400F41FCE1CE3007105ED /* Debug */ = {
+		C11401101FCE2327007105ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -470,14 +469,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.RomanNumeralCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
 			};
 			name = Debug;
 		};
-		C11400F51FCE1CE3007105ED /* Release */ = {
+		C11401111FCE2327007105ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -487,14 +487,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.RomanNumeralCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
 			};
 			name = Release;
 		};
-		C11401021FCE1CF2007105ED /* Debug */ = {
+		C114011E1FCE2333007105ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = TL73LFLQ8N;
@@ -503,14 +503,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.RomanNumeralCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RomanNumeralCalculator;
 			};
 			name = Debug;
 		};
-		C11401031FCE1CF2007105ED /* Release */ = {
+		C114011F1FCE2333007105ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = TL73LFLQ8N;
@@ -519,6 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kachulach.RomanNumeralCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RomanNumeralCalculator;
 			};
 			name = Release;
@@ -544,19 +546,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C11400F31FCE1CE3007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */ = {
+		C114010F1FCE2327007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C11400F41FCE1CE3007105ED /* Debug */,
-				C11400F51FCE1CE3007105ED /* Release */,
+				C11401101FCE2327007105ED /* Debug */,
+				C11401111FCE2327007105ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C11401011FCE1CF2007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
+		C114011D1FCE2333007105ED /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C11401021FCE1CF2007105ED /* Debug */,
-				C11401031FCE1CF2007105ED /* Release */,
+				C114011E1FCE2333007105ED /* Debug */,
+				C114011F1FCE2333007105ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
